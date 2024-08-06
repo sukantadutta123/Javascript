@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words-Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Words Counter</h1>
+        <textarea name = "inputBox" id="inputBox" cols="30" rows="10"
+        oninput="wordCounter()" placeholder="Enter your text..."></textarea>
+        <div class="outputBox">
+            <div>
+                <label for="words" >Total Words</label>
+                <input type="button" value="0" id="words">
+            </div>
+            <div>
+                <label for="Chars" >Total Characters</label>
+                <input type="button" value="0" id="chars">
+            </div>
+            <div>
+                <label for="alphabets" >Total Alphabets</label>
+                <input type="button" value="0" id="alphabets">
+            </div>
+            <div>
+                <label for="numbers" >Total Numbers</label>
+                <input type="button" value="0" id="number">
+            </div>
+        </div>
+    </div>
+
+     <!--SubFooter-->
+
+     <div class="subfooter">
+        <div class="container flex subfooter-container">
+            <div class="small-bold-text banner-text bottom">Copyright © @ Sukanta Dutta</div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
